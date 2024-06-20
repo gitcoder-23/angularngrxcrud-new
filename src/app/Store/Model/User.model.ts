@@ -37,7 +37,11 @@ export interface Menus{
 
 export interface Roleaccess{
     role:string,
-    menu:string
+    menu:string,
+    haveadd:boolean,
+    haveedit:boolean,
+    havedelete:boolean,
+    haveview:boolean
 }
 
 export interface UserModel extends EntityState<Users>{

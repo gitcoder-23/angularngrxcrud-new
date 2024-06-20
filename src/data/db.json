@@ -31,33 +31,13 @@
       "status": true
     },
     {
-      "id": 7,
-      "name": "Albert Einstien",
-      "email": "albert@in.com",
-      "phone": "78899999",
-      "associategroup": "level1",
-      "address": "no 1 ,new street",
-      "type": "SUPPLIER",
-      "status": true
-    },
-    {
-      "id": 8,
-      "name": "NT user",
-      "email": "nt@in.com",
-      "phone": "7899900",
+      "id": 10,
+      "name": "Natrajan",
+      "email": "nat@in.com",
+      "phone": "55566",
       "associategroup": "level2",
-      "address": "test",
+      "address": "hj",
       "type": "SUPPLIER",
-      "status": true
-    },
-    {
-      "id": 9,
-      "name": "Akbar",
-      "email": "test@in.com",
-      "phone": "33333",
-      "associategroup": "level1",
-      "address": "test",
-      "type": "CUSTOMER",
       "status": true
     }
   ],
@@ -127,129 +107,51 @@
   "roleaccess": [
     {
       "role": "admin",
-      "menu": "associate"
+      "menu": "associate",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "haveview": true
     },
     {
       "role": "admin",
-      "menu": "customer"
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "haveview": true
     },
     {
       "role": "admin",
-      "menu": "user"
+      "menu": "user",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "haveview": true
     },
     {
       "role": "manager",
-      "menu": "associate"
+      "menu": "associate",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "haveview": true
     },
     {
       "role": "manager",
-      "menu": "customer"
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "haveview": true
     },
     {
       "role": "user",
-      "menu": "associate"
-    }
-  ],
-  "company": [
-    {
-      "code": 1,
-      "name": "NT Infotech",
-      "area": "chennai",
-      "branchcount": 4
-    },
-    {
-      "code": 2,
-      "name": "RN Infotech",
-      "area": "Banglore",
-      "branchcount": 5
-    },
-    {
-      "code": 3,
-      "name": "TSN Infotech",
-      "area": "Banglore",
-      "branchcount": 0
-    }
-  ],
-  "companydata": [
-    {
-      "code": 1,
-      "branches": [
-        {
-          "code": "HQ001",
-          "street": "Street 1",
-          "city": "Kansas"
-        },
-        {
-          "code": "HQ002",
-          "street": "Street 2",
-          "city": "Texas"
-        },
-        {
-          "code": "HQ003",
-          "street": "Street 2",
-          "city": "Texas"
-        },
-        {
-          "code": "HQ004",
-          "street": "Street 2",
-          "city": "Texas"
-        },
-        {
-          "code": "HQ005",
-          "street": "Street 2",
-          "city": "Texas"
-        },
-        {
-          "code": "HQ006",
-          "street": "Street 2",
-          "city": "Texas"
-        }
-      ],
-      "employee": [
-        {
-          "code": "HQ001",
-          "name": "Street 1",
-          "age": 95
-        }
-      ]
-    },
-    {
-      "code": 2,
-      "branches": [
-        {
-          "code": "SQ001",
-          "street": "Street 1",
-          "city": "Kansas"
-        },
-        {
-          "code": "SQ002",
-          "street": "Street 2",
-          "city": "Texas"
-        }
-      ],
-      "employee": [
-        {
-          "code": "HQ002",
-          "name": "Rahul",
-          "age": 195
-        }
-      ]
-    },
-    {
-      "code": 3,
-      "branches": [],
-      "employee": [
-        {
-          "code": "HQ002",
-          "name": "Rahul",
-          "age": 195
-        },
-        {
-          "code": "HQ0021",
-          "name": "Rahul",
-          "age": 195
-        }
-      ]
+      "menu": "associate",
+      "haveadd": true,
+      "haveedit": false,
+      "havedelete": false,
+      "haveview": true
     }
   ]
 }
