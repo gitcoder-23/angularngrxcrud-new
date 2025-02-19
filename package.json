@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "on": "concurrently \"npm start\" \"json-server --watch db.json --port 3000\"",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -25,6 +26,8 @@
     "@ngrx/router-store": "^17.0.0",
     "@ngrx/store": "^17.0.0",
     "@ngrx/store-devtools": "^17.0.0",
+    "concurrently": "^9.1.2",
+    "json-server": "^1.0.0-beta.3",
     "ngx-doc-viewer": "^15.0.1",
     "ngx-mask": "^17.0.4",
     "rxjs": "~7.8.0",
