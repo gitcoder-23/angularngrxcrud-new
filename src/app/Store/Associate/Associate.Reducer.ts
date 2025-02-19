@@ -52,6 +52,8 @@ const _AssociateReducer = createReducer(AssociateState,
             errormessage: ''
         }
     }),
+
+    // during add associate the creal the fields and open the popup
     on(openpopup, (state, action) => {
         return {
             ...state,
